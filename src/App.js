@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // eslint-disable-next-line
 import logo from './logo.svg';
-import './App.css';
+import classes from './App.css';
 import Person from "./Person/Person"
 
 
@@ -52,7 +52,7 @@ class App extends Component {
             cursor: 'pointer',
         }
         return (
-            <div className="App">
+            <div className={classes.App}>
                 <h1>Hi I am react app</h1>
                 <button
                     style = {style}
